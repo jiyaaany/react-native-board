@@ -26,7 +26,7 @@ class TabNavigator extends React.Component {
                 }}
             >
                 <Tab.Screen name="Home" component={Home} />
-                <Tab.Screen name="Settings" component={Write} />
+                <Tab.Screen name="Write" component={Write} />
             </Tab.Navigator>
         );
     }
