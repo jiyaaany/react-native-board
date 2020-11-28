@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "emulate": "yarn run ios & yarn run android"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.32",
@@ -17,6 +18,7 @@
     "@react-navigation/bottom-tabs": "5.10.2",
     "@react-navigation/native": "5.8.2",
     "@react-navigation/stack": "5.11.1",
+    "native-base": "2.13.14",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-gesture-handler": "1.8.0",
