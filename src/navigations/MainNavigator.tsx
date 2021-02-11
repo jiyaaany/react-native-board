@@ -11,7 +11,7 @@ class MainNavigator extends React.Component {
     render() {
         return (
             <NavigationContainer>
-                <Stack.Navigator>
+                <Stack.Navigator screenOptions={{ headerShown: false }}>
                     <Stack.Screen
                         name="TabNavigator"
                         component={TabNavigator}
