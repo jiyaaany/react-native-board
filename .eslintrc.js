@@ -41,7 +41,7 @@ module.exports = {
       'react/self-closing-comp': 'error',
       'react/sort-comp': ['error', { 'order': ['static-variables', 'instance-variables', 'constructor', 'static-methods', 'lifecycle', 'everything-else', 'render'] }],
       'react/void-dom-elements-no-children': 'error',
-      'react/jsx-boolean-value': ['error', 'always'],
+      'react/jsx-boolean-value': ['error', 'never'],
       'react/jsx-closing-bracket-location': 'error',
       'react/jsx-closing-tag-location': 'error',
       'react/jsx-curly-spacing': 'error',

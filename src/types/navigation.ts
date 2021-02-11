@@ -9,4 +9,6 @@ export type TabNavigatorParams = {
     AddPicture: undefined;
     Home: undefined;
     Write: undefined;
+    Search: undefined;
+    Notify: undefined;
 };
